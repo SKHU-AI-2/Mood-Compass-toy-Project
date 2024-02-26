@@ -2,7 +2,7 @@
 > 당신의 하루를 읽어주는 AI 일기장
 
 ## Workflow
- <img src="C:\Users\kyaa0\Desktop\toy_project\workflow.png"> 
+ <img src="workflow.png"> 
 
 ## Team : IDLE
 
