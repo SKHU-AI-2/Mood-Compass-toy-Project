@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기분나침반</title>
+    <link href="{{ url_for('static', path='/style.css') }}" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>기분나침반</h1>
+        <p>일기를 입력해주세요. 일기의 감정분석을 해드립니다 :)</p>
+        <form action="/predict" method="POST" id="text">
+            <textarea name="text" form="text" cols="60" rows="10" placeholder="오늘의 일기를 입력하세요..." autofocus required></textarea>
+            <br>
+            <div class="button-container">
+                <button type="submit" class="btn">분석하기</button>
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>
