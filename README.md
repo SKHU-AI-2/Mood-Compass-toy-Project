@@ -2,7 +2,7 @@
 > 당신의 하루를 읽어주는 AI 일기장
 
 ## Workflow
- <img src="workflow.png"> 
+ <img src="new_workflow.png"> 
 
 ## Team : IDLE
 
